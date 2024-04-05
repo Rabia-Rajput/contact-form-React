@@ -1,4 +1,4 @@
-import styles from './Contact.module.css';
+import styles from './ContactHeader.module.css'
 
 const ContactHeader = () => {
   return (
