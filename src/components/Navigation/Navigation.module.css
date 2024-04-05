@@ -1,0 +1,20 @@
+
+
+   .navigation{
+     display: flex;
+     height: 72px;
+     align-items: center;
+     justify-content: space-between;
+     padding: 0 60px;
+   }
+   .navigation img{
+     max-width: 100px;
+     height: auto;
+   }
+   .navigation ul{
+     display: flex;
+     list-style: none;
+     gap: 24px;
+     font-weight: 500;
+   
+   }
