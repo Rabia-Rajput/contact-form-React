@@ -3,4 +3,50 @@
 display: flex;
 max-width: 1000px;
 margin: 0 auto;
+align-items: end;
+}
+.btn{
+    display: flex;
+   
+    
+    gap: 32px;
+    border-radius: 5px;
+
+}
+.contact_btn{
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contact_btn form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-bottom: 30px;
+    
+
+}
+.contact_form{
+    padding: 0 8px;
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   position: relative;
+  
+
+}
+.contact_form input{
+    height: 40px;
+}
+.contact_form label{
+    position: absolute;
+    top: -12px;
+    left:24px;
+    background-color: white;
+    padding: 0 4px;
+ color: black;
+ font-weight: 600;
+ font-size: 14px;
+
 }
