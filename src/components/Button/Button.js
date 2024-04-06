@@ -2,9 +2,9 @@ import styles from './Button.module.css';
 
 
 
-const Button = ({text, icon , isOutline}) => {
+const Button = ({text, icon , isOutline , ...rest }) => {
   return ( <div> 
-    <button className={isOutline ?styles.outline_Btn: styles.primaryBtn}>
+    <button {...rest} className={isOutline ?styles.outline_Btn: styles.primaryBtn}>
     {icon}
       {text}
     </button>
